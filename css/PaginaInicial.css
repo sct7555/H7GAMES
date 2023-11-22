@@ -1,0 +1,208 @@
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+
+html ::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background: #6e6ea9;
+}
+
+html ::-webkit-scrollbar-track {
+  background: #ededed;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(2, 50, 66);
+  margin: 0;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+}
+
+/*Logo*/
+.logo {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.logo img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+
+/*Menu*/
+.menu {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.menu .sprints,
+.menu .integrantes {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  background-color: #fff;
+  width: 130px;
+  padding: 10px;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu a:hover{
+  text-decoration: underline;
+}
+
+.menu a {
+  color: rgb(2, 50, 66);
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+/*Lorrayne*/
+.lorrayne img {
+  display: block;
+  margin-left: 1100px;
+  margin-top: -30px; 
+}
+
+/*Segunda Parte*/
+.barra {
+  margin-top: -15px;
+  left: -20px;
+  position: absolute;
+  height: 1000px;
+  width: 2000px;
+  background-color: #fff;
+ }
+
+/*Conteudo*/
+.texto-sobre1 {
+  margin-left: 50px;
+  margin-top: -700px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 950px;
+  background-color: #fff;
+  width: 700px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.texto-sobre1 .projeto-hp {
+  color:  rgb(2, 50, 66);
+  font-family: Arial, sans-serif; 
+}
+
+.texto-sobre1 .titulo {
+  font-size: 55px;
+  padding: 20px;
+  text-align: center;
+}
+
+/*Seta*/
+.texto-sobre1::before,
+.texto-sobre1::after {
+  content: "";
+  position: absolute;
+  bottom: -300px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.texto-sobre1::before {
+  left: 20%; 
+  margin-left: -10px;
+  border-width: 50px 25px 0 25px;
+  border-color: transparent transparent transparent transparent;
+  animation: arrowAnimation 1s infinite;
+}
+
+.texto-sobre1::after {
+  left: 20%;
+  margin-left: -10px;
+  border-width: 50px 25px 0 25px;
+  border-color: #fff transparent transparent transparent;
+  animation: arrowAnimation 1s infinite;
+}
+
+@keyframes arrowAnimation {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/*Conteudo*/
+.texto-sobre2 {
+  margin-top: 80px;
+  margin-left: 500px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 950px;
+  background-color: #fff;
+  width: 650px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-sobre2 .titulo {
+  font-size: 33px;
+  padding: 20px;
+  text-align: center;
+}
+
+.texto-sobre3 {
+  margin-top: -500px;
+  margin-left: 850px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 950px;
+  background-color: #fff;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-sobre3 .titulo {
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color:rgb(2, 50, 66);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.iframe-format{
+  width: 100%;
+  height: 100%;
+}

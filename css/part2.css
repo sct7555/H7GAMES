@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(2, 50, 66);
+  margin: 0;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*Margana*/
+.morgana img {
+  display: block;
+  margin-left: -10%;
+  margin-top: 12%; 
+  width: 50%;
+}
+
+/*Balão 1*/
+.texto-sobre1 {
+  margin-left: 30%;
+  margin-top: -47%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 950px;
+  background-color: rgb(254, 255, 255);
+  width: 55%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.texto-sobre1 .titulo {
+  font-size: 20px;
+  padding: 10%;
+  text-align: justify;
+}
+
+/*Balão 2*/
+.texto-sobre2 {
+  margin-left: 47%;
+  margin-top: 5%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 950px;
+  background-color: rgb(130, 209, 198);
+  width: 45%;
+  height: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.texto-sobre2 .titulo {
+  font-size: 25px;
+  padding: 10%;
+  text-align: justify;
+}
+
+h1 {
+  color:rgb(2, 50, 66);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+
+.barra {
+  margin-top: 3%;
+  left: -20%;
+  position: absolute;
+  height: 1000px;
+  width: 200%;
+  background-color: lightblue;
+}

@@ -1,0 +1,135 @@
+ html ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  html ::-webkit-scrollbar-thumb {
+    border-radius: 50px;
+    background: #6e6ea9;
+  }
+  
+  html ::-webkit-scrollbar-track {
+    background: #ededed;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: rgb(2, 50, 66);
+    margin: 0;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+  }
+  
+  /*Logo*/
+.logo {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+  /*Pagina Inicial*/
+.pagina {
+    margin-top: -5%;
+    max-width: 200px;
+    margin-left: 5%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 150px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+  }
+.pagina a {
+    color: rgb(32, 79, 91);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+ }
+
+.pagina a:hover{
+  text-decoration: underline;
+}
+
+/*Titulo*/
+.titulo {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    background-color:rgb(0, 98, 131);
+    width: 250px;
+    padding: 15px;
+    margin-top: 50px;
+    margin-left: 43%;
+    text-align: center;
+}
+
+.titulo {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    }
+
+/*Integrantes*/
+.integrantes2,
+.integrantes {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffffffe1;
+    width: 133%;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex; 
+    align-items: center;
+}
+
+.integrantes2 img,
+.integrantes img {
+    display: block;
+    margin-right: 30px; 
+}
+
+td {
+    padding: 0 90px;
+}
+
+.integrantes2 {
+    margin-left: 27%;
+    width: 155%;
+}
+
+.integrantes {
+    margin-left: 3%;
+}
+
+li {
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(51, 116, 135);
+    font-weight: bold;
+}
+
+/*Legenda*/
+.legenda {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+    padding: 20px;
+    font-weight: bold;
+    color: rgb(46, 99, 105);
+}
